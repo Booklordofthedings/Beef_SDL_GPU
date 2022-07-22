@@ -17,7 +17,7 @@ or learn from the examples in the original library
 There are some things that might be missing or may be nice to do.  
 If you want to help you can do these.  
 
--> Write Documentation for the library
--> Add comments to the function bindings (some methods have comments that arent copied over)
--> Check for functionality of the library
--> Update the beef sdl bindings to 2.0.22
+-> Write Documentation for the library  
+-> Add comments to the function bindings (some methods have comments that arent copied over)  
+-> Check for functionality of the library  
+-> Update the beef sdl bindings to 2.0.22  
