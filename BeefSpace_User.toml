@@ -1,0 +1,125 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["Testing\\src\\Program.bf", "src\\GPU.bf", "src\\Attribute.bf"]
+
+[MainWindow]
+X = 936
+Y = 143
+Width = 984
+Height = 602
+ShowKind = "Maximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 198.0
+RequestedHeight = 200.0
+SizePriority = 198.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 224.0
+RequestedHeight = 200.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 110.4168
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+RequestedWidth = 1717.84
+RequestedHeight = 768.84
+SizePriority = 1694.08
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "GPU.bf"
+TabWidth = 78.12512
+Type = "SourceViewPanel"
+FilePath = "src\\GPU.bf"
+CursorPos = 18641
+VertPos = 6832.0
+ProjectName = "Beef_SDL_GPU"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Program.bf"
+TabWidth = 91.45844
+Type = "SourceViewPanel"
+FilePath = "Testing\\src\\Program.bf"
+CursorPos = 275
+VertPos = 966.0
+ProjectName = "Testing"
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 320.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 0.0808134
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 95.8334
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 361.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Watch"
+TabWidth = 85.41673
+Type = "WatchPanel"
+Columns = [{Width = 94.0}, {Width = 291.0}, {Width = 94.0}]
+Items = [""]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Auto"
+TabWidth = 77.08337
+Type = "AutoWatchPanel"
+Columns = [{Width = 94.0}, {Width = 621.0}, {Width = 94.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 0.9191867
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 115.6251
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 92.7084
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 102.0834
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 107.2918
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 89.5834
+Type = "OutputPanel"

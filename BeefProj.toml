@@ -1,0 +1,34 @@
+FileVersion = 1
+Dependencies = {corlib = "*", SDL2 = "*"}
+
+[Project]
+Name = "Beef_SDL_GPU"
+TargetType = "BeefLib"
+StartupObject = "Beef_SDL_GPU.Program"
+DefaultNamespace = "SDL2"
+
+[Configs.Debug.Win32]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")"]
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)/dist/debug/x64/SDL2_gpu.lib"]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")", "CopyToDependents(\"$(ProjectDir)/dist/debug/x64/SDL2_gpu.dll\")"]
+
+[Configs.Release.Win32]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)/dist/release/x64/SDL2_gpu.lib"]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")", "CopyToDependents(\"$(ProjectDir)/dist/release/x64/SDL2_gpu.dll\")"]
+
+[Configs.Paranoid.Win32]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")"]
+
+[Configs.Paranoid.Win64]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")"]
+
+[Configs.Test.Win32]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")"]
+
+[Configs.Test.Win64]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/dist/LICENSE.txt\")"]
