@@ -2,6 +2,7 @@
 
 This repository contains bindings for all of
 the SDL_gpu library a gpu accelerated drawing library for sdl.
+Its also not activly updated and barely tested, it may work however you will need to check that for yourself
 
 ## Usage
 This library requires the SDL2 2.0.22 which is currently
